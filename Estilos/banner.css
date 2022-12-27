@@ -1,0 +1,32 @@
+/* Estilos Banner */
+
+section.banner {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+section.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    height: auto;
+    width: 50%;
+}
+
+section.banner img {
+    width: 40%;
+}
+
+@media (max-width: 700px) { 
+    section.banner{
+        flex-direction: column-reverse;
+    }
+    section.banner div,
+    section.banner img{
+        width: 100% ;
+    }
+}

@@ -1,0 +1,50 @@
+/* Estilos Carrusel */
+
+section.carrusel {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+section.carrusel div {
+    width: 33.33%;
+    min-height: 350px;
+    height: auto;
+    max-height: 500px;
+    background-size: contain;
+    transition-duration: 500ms;
+}
+
+section.carrusel div:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carrusel-img {
+    background: url("../logosConectar/logoConectarLabCeleste.png") center no-repeat;
+}
+
+
+.carrusel-img1 {
+    background: url("../logosConectar/logoConectarLabRosado.png") center no-repeat;
+}
+
+.carrusel-img2 {
+    background: url("../logosConectar/logoConectarLabCeleste.png") center no-repeat;
+}
+
+@media (max-width: 700px) { 
+    section.carrusel{
+        flex-direction: column;
+        gap: 5px;
+    }
+    section.carrusel div{
+        width: 100%;
+    }
+    section.carrusel div:hover{
+        transform: none;
+        box-shadow: none;
+    }
+}
