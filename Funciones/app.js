@@ -25,6 +25,17 @@ window.onload = () => {
   </nav>
   `;
 
+  document.querySelector(".contacto").innerHTML =`
+  <img src="./logosConectar/logoConectarLab.png"  >
+  <div class="contacto-info">
+    <h1>¡Seguinos en nuestras redes sociales!</h1>
+    <div>
+      <a target="_blank" href="https://www.instagram.com/conectarlabmendoza/"><i class="rosado fa-brands fa-square-instagram"></i></a>
+      <a target="_blank" href="https://www.facebook.com/conectarlabmendoza/"><i class="celeste fa-brands fa-square-facebook"></i></a>
+    </div>
+  </div>
+  `;
+
   document.querySelector("footer").innerHTML = `
   <div>
     <img title="Ciencias" class="footer-logo" src="./logosConectar/logoCiencia.png" alt="Logo ciencia">
@@ -36,7 +47,7 @@ window.onload = () => {
     <img title="Sonido" class="footer-logo" src="./logosConectar/logoSonido.png" alt="Logo sonido">
   </div>
   <a title="Conectar LAB" href="#top">
-    <img class="header-logo" src="./logosConectar/logoConectarLab.png" alt="">
+    <img class="header-logo" src="./logosConectar/logoConectarLab.png"  >
   </a>
 `;
 };

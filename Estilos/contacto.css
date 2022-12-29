@@ -49,4 +49,7 @@ section.contacto{
     .contacto-info i{
         font-size: 60px;
     }
+    section.contacto{
+        padding: 10px;
+    }
 }

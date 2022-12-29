@@ -1,6 +1,7 @@
 @import url("./encabezado.css");
 @import url("./banner.css");
 @import url("./fotos-carrusel.css");
+@import url("./carrusel.css");
 @import url("./informacion.css");
 @import url("./pie-de-pagina.css");
 @import url("./contacto.css");
@@ -52,6 +53,7 @@ h2{
 .reverse-flexrow {
     flex-direction: row-reverse;
 }
+
 
 @media (max-width: 700px) { 
     body{

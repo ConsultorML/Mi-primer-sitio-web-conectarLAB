@@ -1,26 +1,15 @@
 /* Estilos Carrusel */
 
-section.carrusel {
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
-}
+/* Es en este archivo en el que debemos modificar las url de las imagenes, 
+cada una de las url representa la ruta hacia cada una de las imagenes, unicamente hay
+que modificar la ruta con la nueva ruta de nuestro personaje.
 
-section.carrusel div {
-    width: 33.33%;
-    min-height: 350px;
-    height: auto;
-    max-height: 500px;
-    background-size: contain;
-    transition-duration: 500ms;
-}
+    background: url("") center no-repeat;
 
-section.carrusel div:hover {
-    transform: scale(1.05);
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
+la nueva ruta debe estar dentro de las comillas
+
+*/
+
 
 .carrusel-img {
     background: url("../logosConectar/logoConectarLabCeleste.png") center no-repeat;
@@ -32,18 +21,4 @@ section.carrusel div:hover {
 
 .carrusel-img2 {
     background: url("../logosConectar/logoConectarLabCeleste.png") center no-repeat;
-}
-
-@media (max-width: 700px) { 
-    section.carrusel{
-        flex-direction: column;
-        gap: 5px;
-    }
-    section.carrusel div{
-        width: 100%;
-    }
-    section.carrusel div:hover{
-        transform: none;
-        box-shadow: none;
-    }
 }
