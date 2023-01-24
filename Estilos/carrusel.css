@@ -24,7 +24,7 @@ section.carrusel div {
     min-height: 350px;
     height: auto;
     max-height: 500px;
-    background-size: contain;
+    background-size: cover;
     transition-duration: 500ms;
 }
 
